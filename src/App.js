@@ -1,7 +1,21 @@
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import AllPossibilities from './Components/AllPossibilities/AllPossibilities';
+import MyFooter from './Components/MyFooter/MyFooter';
+import MyHeader from './Components/MyHeader/MyHeader';
+import HeaderContent from './Components/HeaderContent/HeaderContent';
+
 function App() {
   return (
     <div className="App">
-      <h1>O.S</h1>
+      <MyHeader />
+
+      <Routes>
+        <Route path="possibilities" element={<AllPossibilities />} />
+      </Routes>
+
+      <HeaderContent />
+      <MyFooter />
     </div>
   );
 }
