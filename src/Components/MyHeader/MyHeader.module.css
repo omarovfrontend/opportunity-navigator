@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  margin: 30px 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__innerIntro {
+  width: 47%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* burger */
+.burger__block {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.burger {
+  width: 22px;
+  background: linear-gradient(to bottom, #414041 20%, transparent 21%, transparent 40%, #414041 41%, #414041 60%, transparent 61%, transparent 80%, #414041 81%);
+  display: flex;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+/* .burger__active {
+  background: 
+    linear-gradient(45deg, transparent 45%, #414041 46%, #414041 55%, transparent 56%), 
+    linear-gradient(-45deg, transparent 45%, #414041 46%, #414041 55%, transparent 56%);
+} */
+/* end burger */
+
+.burger__description {
+  font-family: 'Geometria';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 85.8%;
+  color: #414041;
+}
+
+.header__link {
+  font-family: 'Courier New', Courier, monospace;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 85.8%;
+  color: #08AEAD;
+  text-decoration: none;
+  transition: color .3s ease-in-out;
+}
+
+.header__link:hover {
+  color: #047DB6;
+}
