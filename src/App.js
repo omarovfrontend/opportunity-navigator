@@ -4,6 +4,7 @@ import AllPossibilities from './Components/AllPossibilities/AllPossibilities';
 import MyFooter from './Components/MyFooter/MyFooter';
 import MyHeader from './Components/MyHeader/MyHeader';
 import HeaderContent from './Components/HeaderContent/HeaderContent';
+import './index.css';
 
 function App() {
   return (
